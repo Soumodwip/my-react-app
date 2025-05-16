@@ -47,7 +47,7 @@ function Home() {
       {userName && (
         <div className="flex justify-center items-center mt-6 overflow-hidden mb-4">
           <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-600 animate-marquee shadow-lg">
-            Welcome, {userName}!
+            Suswagatam, {userName}!
           </h2>
         </div>
       )}
