@@ -7,14 +7,7 @@ import { songs } from './data';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  useEffect(() => {
-  fetch("https://2egbqd7taf.execute-api.ap-south-1.amazonaws.com/default/myReactLambda")
-    .then(res => res.json())
-    .then(data => console.log(data))
-    .catch(err => console.error(err));
-}, []);
-
-
+  
   return (
     <Router>
       <Routes>
