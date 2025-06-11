@@ -8,11 +8,6 @@ import { songs } from './data';
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   
-<<<<<<< HEAD
-
-
-=======
->>>>>>> cef73d1b4aab4e5d262a6c6249e691af7061eaaa
   return (
     <Router>
       <Routes>
